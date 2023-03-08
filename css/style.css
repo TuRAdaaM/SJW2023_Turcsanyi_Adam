@@ -43,7 +43,7 @@ p {
     line-height: 2em;
 }
 
-p::first-line {
+p::first-letter {
     margin-left: 15px; 
 }
 
@@ -51,4 +51,17 @@ p::first-line {
     color: #414a04;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+img {
+    box-shadow: #5d6a09 2px 2px 5px;
+}
+
+footer {
+    background-color: #81150b;
+}
+footer > a {
+    color: white;
+    text-transform: capitalize8;
+    text-decoration: none;
 }
